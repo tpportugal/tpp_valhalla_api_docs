@@ -1,7 +1,7 @@
-# valhalla-docs
+# tpp_valhalla_api_docs
 This repository contains most of the documentation for the Valhalla routing project. Deeper technical information about individual components of Valhalla can be found in the individual repositories contained with the Valhalla organization. This document gives some hints on where to look for specific information.
 
-Documentation available within the valhalla-docs repository includes:
+Documentation available within the tpp_valhalla_api_docs repository includes:
 
 - [Introduction](./valhalla-intro.md) - This is the early history of Valhalla. Introduces the core team and describes overall objectives of the project and some insight on why we chose the name Valhalla.
 - [Terminology](./terminology.md) - Contains commonly used terms and definitions within Valhalla. Also lists the various repositories.
@@ -18,13 +18,13 @@ Documentation available within the valhalla-docs repository includes:
 
 Data source listing and attribution information can be found here:
 
-- [Data sources](../../../valhalla/blob/master/docs/mjolnir/data_sources.md) - A listing of data sources used within Valhalla routing tiles.
-- [Attribution requirements](../../../valhalla/blob/master/docs/mjolnir/attribution.md).
+- [Data sources](../../../tpp_valhalla/blob/master/docs/mjolnir/data_sources.md) - A listing of data sources used within Valhalla routing tiles.
+- [Attribution requirements](../../../tpp_valhalla/blob/master/docs/mjolnir/attribution.md).
 
 Technical descriptions available in other Valhalla repositories includes:
 
-- [Why Tiles?](../../../valhalla/blob/master/docs/mjolnir/why_tiles.md) - Some of the objectives and reasons for designing a tiled, routing data set are included here.
-- [OSM Connectivity Map](../../../mjolnir/blob/master/docs/connectivity.md) - Discusses creation of a "Connectivity Map" of OSM that uses Valhalla routing tiles to provide a first order of approximation of connectivity between locations.
-- [Use of Administrative Data in Valhalla](../../../valhalla/blob/master/docs/mjolnir/admins.md) - Discusses the importance of administrative information to routing and some of the ways that Valhalla uses adminstrative information.
-- [Dynamic Costing](../../../valhalla/blob/master/docs/sif/dynamic-costing.md) - Describes the basics of the dynamic, run-time path costing provided within the sif repository.
-- [Elevation Influenced Bicycle Routing](../../../valhalla/blob/master/docs/sif/elevation_costing.md) - Discusses how elevation is factored into bicycle costing to allow features such as "avoid hills".
+- [Why Tiles?](../../../tpp_valhalla/blob/master/docs/mjolnir/why_tiles.md) - Some of the objectives and reasons for designing a tiled, routing data set are included here.
+- [OSM Connectivity Map](../../../tpp_mjolnir/blob/master/docs/connectivity.md) - Discusses creation of a "Connectivity Map" of OSM that uses Valhalla routing tiles to provide a first order of approximation of connectivity between locations.
+- [Use of Administrative Data in Valhalla](../../../tpp_valhalla/blob/master/docs/mjolnir/admins.md) - Discusses the importance of administrative information to routing and some of the ways that Valhalla uses adminstrative information.
+- [Dynamic Costing](../../../tpp_valhalla/blob/master/docs/sif/dynamic-costing.md) - Describes the basics of the dynamic, run-time path costing provided within the sif repository.
+- [Elevation Influenced Bicycle Routing](../../../tpp_valhalla/blob/master/docs/sif/elevation_costing.md) - Discusses how elevation is factored into bicycle costing to allow features such as "avoid hills".
